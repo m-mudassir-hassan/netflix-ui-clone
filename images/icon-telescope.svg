@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tube" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a1230"/>
+      <stop offset="0.5" stop-color="#ff3b4f"/>
+      <stop offset="1" stop-color="#b3122b"/>
+    </linearGradient>
+    <radialGradient id="lens" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#ff9ec4"/>
+      <stop offset="1" stop-color="#c2185b"/>
+    </radialGradient>
+  </defs>
+  <g transform="rotate(-40 256 256)">
+    <rect x="120" y="190" width="70" height="132" rx="12" fill="#6b1030"/>
+    <path d="M190 200 H330 L350 170 V342 L330 312 H190 Z" fill="url(#tube)"/>
+    <rect x="330" y="150" width="70" height="212" rx="14" fill="url(#tube)"/>
+    <ellipse cx="400" cy="256" rx="22" ry="106" fill="#ffd1e0"/>
+    <ellipse cx="400" cy="256" rx="14" ry="88" fill="url(#lens)"/>
+  </g>
+  <g fill="#c2185b">
+    <path d="M110 120 l8 20 20 8 -20 8 -8 20 -8 -20 -20 -8 20 -8z"/>
+    <path d="M410 80 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"/>
+    <path d="M420 400 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7z"/>
+  </g>
+</svg>

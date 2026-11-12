@@ -1,0 +1,117 @@
+.background-hero-img {
+    position: relative;
+    background-image: url(images/pintrest\ background\ img.jpg);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+
+
+.background-hero-img>* {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-input {
+    width: 23%;
+    height: 56px;
+    background-color: rgba(169, 169, 169, 0.244);
+    border: 2px solid rgb(127, 122, 122);
+
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.hero-input::placeholder {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero-btn {
+    width: 180px;
+    height: 56px;
+    background-color: red;
+    border: none;
+}
+
+.hero-btn:hover {
+    background-color: rgb(201, 30, 30);
+}
+
+/* main */
+.seriesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.seriesCard {
+    position: relative;
+    ;
+}
+
+.seriesCount {
+    position: absolute;
+    font-size: 5rem;
+    color: inherit;
+    -webkit-text-stroke: 2px white;
+    font-weight: 700;
+    bottom: 10%;
+    left: -10%;
+}
+
+
+.reasons {
+    color: white;
+}
+
+.reasonsCards {
+    /* height: auto; */
+    background: linear-gradient(120deg, #1a1e3e 60%, #210e18 100%);
+    border-radius: 10px;
+}
+
+.reasonsCards img {
+    float: right;
+}
+
+.info input::placeholder {
+    color: white;
+}
+
+.info input {
+    border: 1px solid rgba(245, 245, 245, 0.495);
+    width: 40%;
+}
+
+
+@media (max-width:576px) {
+    .hero-input {
+        width: 80%;
+    }
+
+    .hero-btn {
+        width: 12 0px;
+        margin-top: 10px;
+    }
+
+    .seriesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
